@@ -6,8 +6,8 @@ function App() {
   return (
     <div className='card'>
     <Routes>
-      <Route path='/react-component-deploy/' element={<Greetings/>}/>
-      <Route path='/react-component-deploy/profile' element={<Profile/>}/>
+      <Route path='/' element={<Greetings/>}/>
+      <Route path='/profile' element={<Profile/>}/>
     </Routes>
     </div>
   )
