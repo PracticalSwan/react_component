@@ -7,7 +7,7 @@ function App() {
     <div className="card">
       <div>
         <Greetings message="Hello, React!"/>
-        <User name="Sithu Win San"/>
+        <User name="SITHU WIN SAN"/>
       </div>
       
     </div>
