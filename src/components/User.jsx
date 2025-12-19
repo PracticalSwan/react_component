@@ -2,7 +2,7 @@ import "../App.css"
 function Greetings({name}) {
   return (
     <div>
-      <p>{name}</p>r
+      <p>{name}</p>
     </div>
   );
 }
