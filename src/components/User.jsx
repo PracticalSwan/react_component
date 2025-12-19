@@ -1,9 +1,9 @@
 import "../App.css"
-function Greetings({name}) {
+function User({name}) {
   return (
     <div>
       <p>{name}</p>
     </div>
   );
 }
-export default Greetings;
+export default User;
