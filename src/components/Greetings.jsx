@@ -1,8 +1,8 @@
 import "../App.css"
-function Greetings({message}) {
+function Greetings() {
   return (
     <div>
-      <h1>{message}</h1>
+      <h1>Whatever...</h1>
     </div>
   );
 }

@@ -1,14 +1,14 @@
+import './App.css'
+import { Route, Routes } from 'react-router-dom'
 import Greetings from './components/Greetings'
-import User from './components/User'
-
+import Profile from './components/Profile'
 function App() {
   return (
-    <div className="card">
-      <div>
-        <Greetings message="Hello, React!"/>
-        <User name="SITHU WIN SAN"/>
-      </div>
-      
+    <div className='card'>
+    <Routes>
+      <Route path='/react-component-deploy/' element={<Greetings/>}/>
+      <Route path='/react-component-deploy/profile' element={<Profile/>}/>
+    </Routes>
     </div>
   )
 }
